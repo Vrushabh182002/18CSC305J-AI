@@ -6,7 +6,6 @@ graph = {
     'E': ['F'],
     'F': []
 }
-
 visited = set()
 queue = []
 def dfs(visited, graph, node):
