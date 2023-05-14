@@ -1,11 +1,9 @@
-colors = ['red','blue','green','orange','yellow','violet']
+colors = ['red','blue','green']
 
-states = ['MP','New Delhi','Haryana','Rajasthan','Gujarat']
+states = ['New Delhi','Rajasthan','Gujarat']
 
 neighbours = {
-    'MP':['New Delhi','Rajasthan','Gujarat'],
     'New Delhi':['MP','Rajasthan','Haryana'],
-    'Haryana':['New Delhi'],
     'Rajasthan':['MP','Gujarat','New Delhi'],
     'Gujarat':['Rajasthan','MP']
 }
